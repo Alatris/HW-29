@@ -1,4 +1,4 @@
-const ageClassification = require('tests/ageClassification');
+const ageClassification = require('./ageClassification.js');
 
 test('should return null for negative ages', () => {
     expect(ageClassification(-1)).toBe(null);
