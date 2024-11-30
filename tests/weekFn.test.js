@@ -1,4 +1,4 @@
-const weekFn = require('tests/weekFn');
+const weekFn = require('./weekFn');
 
 test('should return correct day of the week for numbers 1 through 7', () => {
     expect(weekFn(1)).toBe('Понеділок');
